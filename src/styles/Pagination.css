@@ -1,0 +1,21 @@
+.arrow {
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+.pageNo {
+  font-size:x-large;
+  font-weight: bolder;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+}
+.icons {
+  display: flex;
+  background-color: gray;
+  margin-top: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  
+}

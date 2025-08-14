@@ -1,0 +1,17 @@
+.logo {
+  width: 50px;
+}
+
+.navbar {
+  width: fit-content;
+  display: flex;
+  align-items: center; /* ✅ vertical centering */
+}
+
+.navbar a {
+  color: rgb(9, 85, 85);
+  padding-left: 70px;
+  text-decoration: none;
+  font-size:x-large ;
+  font-weight:900;
+}

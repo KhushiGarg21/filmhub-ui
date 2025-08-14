@@ -1,0 +1,19 @@
+img {
+  width: 1536px;
+}
+.image {
+  height: 590px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 8px;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  width: 100%;
+}

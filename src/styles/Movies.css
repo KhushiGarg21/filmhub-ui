@@ -1,0 +1,18 @@
+.Movies {
+  text-align: center;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.MovieCards {
+  /*display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  */gap: 25px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}

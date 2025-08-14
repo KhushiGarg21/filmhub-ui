@@ -1,0 +1,148 @@
+.options {
+  display: flex;
+  border-radius: 2px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.options button {
+  padding: 6px 25px;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+}
+.selected {
+  background-color: rgb(0, 157, 255);
+}
+
+.unselected {
+  background-color: rgb(220, 228, 229);
+}
+
+/*.options button:first-child {
+  background-color: rgb(0, 157, 255);
+}*/
+.inputbox {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.inputbox input {
+  background-color: rgb(220, 228, 229);
+  padding: 11px 15px 10px 9px;
+  width: 240px;
+  border-style: none;
+}
+
+/* Table started
+
+
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead tr {
+  display: flex;
+  gap: 220px;
+  text-align: left;
+  margin-left: 400px;
+}
+.table th:first-child {
+  margin-right: 120px;
+}*/
+
+/*
+.tablepart thead {
+  border-bottom: 2px solid black;
+}
+.tablepart tbody {
+  border-bottom: 2px solid black;
+}
+
+
+.pic {
+  
+}
+
+
+tbody tr {
+  display: flex;
+  gap: 220px;
+  margin-top: 20px;
+  background-color: red;
+}
+tbody td img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 90px;
+}
+*/
+
+.tablepart table {
+  width: 94%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-family: sans-serif;
+  margin: 40px;
+  margin-right: 50px;
+}
+
+tbody td img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f3f3f3;
+  font-weight: bold;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 450px;
+  padding-left: 60px;
+}
+
+.pic {
+  width: 60px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}
+
+.icon {
+  display: flex;
+}
+.ratings {
+  margin-top: 10px;
+}

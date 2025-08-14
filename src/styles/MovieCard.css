@@ -1,0 +1,37 @@
+.card {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  padding-bottom: 10px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 3s ease;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark transparent background */
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.emoji{
+  position: absolute;
+  margin-right: 0px;
+  margin-left: 120px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.6); /* dark transparent background */
+}
